@@ -22,17 +22,24 @@
       <!-- header area -->
       <header class="header-main">
         <div class="header-main-left">
+          <!-- logo -->
           <figure class="header-main-logo">
             <img src="img/logo.svg" alt="Dev López" />
           </figure>
         </div>
         <div class="header-main-right">
+          <div class="header-main-social">
+            <p>
+              <i class="fa fa-twitter" aria-hidden="true">t</i>
+              <i class="fa fa-facebook" aria-hidden="true">f</i>
+            </p>
+          </div>
           <nav class="header-main-nav">
             <ul>
               <li><a href="#">Inicio</a></li>
               <li><a href="#">Developer López</a></li>
               <li><a href="#">Servicios</a>
-                <ul>
+                <ul style="display:none">
                   <li><a href="#">Páginas Web</a></li>
                   <li><a href="#">Web para móviles</a></li>
                   <li><a href="#">Sitios administrables</a></li>
@@ -45,10 +52,6 @@
               <li><a href="#">Nuestros paquetes</a></li>
               <li><a href="#">Contactenos</a></li>
             </ul>
-            <div class="header-main-social">
-              <i class="fa fa-twitter" aria-hidden="true">t</i>
-              <i class="fa fa-facebook" aria-hidden="true">f</i>
-            </div>
           </nav>
         </div>
       </header>

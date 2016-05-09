@@ -1,0 +1,64 @@
+@import "compass/css3";
+@import "mixins";
+@import "variables";
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,700);
+
+* {
+  font-family: 'Oxygen', sans-serif;
+  color: $dark;
+  @include box-sizing(border-box);
+}
+// For use REM units
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+.header-main {
+  max-width: 1280px;
+  padding: 20px 10px;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  @include clearfix;
+  .header-main-left {
+    float: left;
+    width: 30%;
+    .header-main-logo {
+      margin: 0;
+      img {
+        max-width: 200px;
+      }
+    }
+  }
+  .header-main-right {
+    float: right;
+    width: 70%;
+    .header-main-nav, .header-main-social {
+      float: right;
+      height: 86.73px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-direction: column;
+    }
+    .header-main-nav {
+      ul {
+        padding: 0;
+        margin: 0;
+        li {
+          float: right;;
+          padding: 5px 10px;
+          list-style: none;
+          a {
+            font-weight: bold;
+            text-decoration: none;
+            text-transform: capitalize;
+          }
+        }
+      }
+    }
+  }
+}
