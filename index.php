@@ -15,10 +15,44 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">Usted está usando un explorador <strong>obsoleto</strong>. Por favor <a href="http://browsehappy.com/">actualice su explorador </a> para mejorar la experiencia de navegación.</p>
-        <![endif]-->
-        <!-- Add your site or application content here -->
+      <!--[if lt IE 8]>
+          <p class="browserupgrade">Usted está usando un explorador <strong>obsoleto</strong>. Por favor <a href="http://browsehappy.com/">actualice su explorador </a> para mejorar la experiencia de navegación.</p>
+      <![endif]-->
+      <!-- Add your site or application content here -->
+      <!-- header area -->
+      <header class="header-main">
+        <div class="header-main-left">
+          <figure class="header-main-logo">
+            <img src="img/logo.svg" alt="Dev López" />
+          </figure>
+        </div>
+        <div class="header-main-right">
+          <nav class="header-main-nav">
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Developer López</a></li>
+              <li><a href="#">Servicios</a>
+                <ul>
+                  <li><a href="#">Páginas Web</a></li>
+                  <li><a href="#">Web para móviles</a></li>
+                  <li><a href="#">Sitios administrables</a></li>
+                  <li><a href="#">Tiendas virtuales</a></li>
+                  <li><a href="#">Posicionamiento Web</a></li>
+                  <li><a href="#">Hospedaje Web</a></li>
+                  <li><a href="#">Logotipos</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Nuestros paquetes</a></li>
+              <li><a href="#">Contactenos</a></li>
+            </ul>
+            <div class="header-main-social">
+              <i class="fa fa-twitter" aria-hidden="true">t</i>
+              <i class="fa fa-facebook" aria-hidden="true">f</i>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- END header area -->
         <p>Hello world! This is HTML5 Boilerplate.</p>
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
